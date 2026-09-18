@@ -47,7 +47,7 @@ public class Login {
             }
         }
         
-        return password.length() >= 8 && hasCapital && hasSpecial;
+        return password.length() >= 8 && hasCapital && hasNumber && hasSpecial;
     }
     
     public boolean checkCellPhoneNumber() {
